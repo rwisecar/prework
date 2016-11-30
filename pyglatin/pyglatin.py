@@ -7,7 +7,7 @@ def translate():
         first = word[0]
         new_word = word[1:] + first + pyg
         print new_word
-    again = raw_input('Would you like to try again? ')
+    again = raw_input('Would you like to try again? Y or N: ')
     if again.lower() == 'y' or again.lower() == 'yes':
         translate()
     else:
